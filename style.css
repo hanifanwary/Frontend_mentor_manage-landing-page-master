@@ -1,0 +1,193 @@
+* {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.btn1 {
+  background-color: hsl(12, 88%, 59%);
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: white;
+}
+
+.btn1:hover {
+  background-color: hsl(12, 74.4%, 66.3%);
+}
+
+.btn5 {
+  background-color: hsl(12, 88%, 59%);
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: white;
+}
+
+.btn5:hover {
+  background-color: hsl(12, 74.4%, 66.3%);
+}
+
+.a1 {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.a1:hover {
+  color: rgb(102, 101, 101);
+  font-weight: 300;
+}
+
+.card1 {
+  width: 40vw;
+}
+
+.Number {
+  font-size: 1.5rem;
+  padding: 2px 20px;
+  background-color: hsl(12, 88%, 59%);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.p2 {
+  width: 20vw;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.container1 h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.container1 {
+  padding: 50px;
+  background-color: hsl(12, 88%, 59%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.texth5 {
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+  line-height: 1.5;
+  text-wrap: balance;
+  word-break: break-word;
+  max-width: 100%;
+  padding: 0 1rem;
+}
+
+footer {
+  background-color: hsl(228, 39%, 23%);
+}
+
+.textLogo {
+  background-color: aliceblue;
+}
+
+.Link2 li a {
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+}
+
+.Link2 li a:hover {
+  color: hsl(12, 88%, 59%);
+}
+
+.icon1 a:hover {
+  background-color: hsl(12, 88%, 59%);
+}
+
+@media (max-width: 576px) {
+  .btndiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .container2 {
+    text-align: center;
+  }
+
+  .section1 {
+    text-align: center;
+  }
+
+  .nav1 ul,
+  .nav1 button {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .mx1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 765px) {
+  .texth5 {
+    font-size: 1.5rem; /* Ukuran lebih besar untuk layar medium */
+  }
+
+  .nav1 ul,
+  .nav1 button {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .card1 {
+    width: 80vw;
+  }
+
+  .mx1 {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Untuk layar besar (lg) */
+  .texth5 {
+    font-size: 1.75rem; /* Ukuran lebih besar untuk layar besar */
+  }
+}
